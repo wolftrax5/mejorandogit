@@ -197,7 +197,28 @@ div.bloque p
     -ms-box-shadow:inset 0 0 5px #666;
     box-shadow:inset 0 0 5px #666;
     font-weight:bold;
+    text-align: center; 
 }
+#flipbook .hard h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 32px;
+  border-bottom: 1px black solid;
+  color: black;
+  margin-bottom: 2.5em;
+  padding-bottom: .5em;
+
+}
+.hard img
+{ height: 280px;
+  widows: 230px;
+  
+  overflow: hidden;
+  line-height: 1;
+  vertical-align: middle;
+  border-radius: 3px;
+}
+
 
 #flipbook .odd{
     background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #FFF), color-stop(1, #DADADA));
